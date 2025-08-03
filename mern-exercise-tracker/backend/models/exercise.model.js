@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 // Schema : which provides the the structure to the database  in that pertucular structure the data stores
+// git checking
 const exerciseSchema = new Schema(
   {
     username: { type: String, required: true },
